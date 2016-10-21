@@ -1,0 +1,85 @@
+body {
+	padding-top: 20px;
+	text-align: center;
+	background-color: #ffffff;
+	color: black;
+}
+
+.nav-container {
+	padding: 10px 0px 10px 0px;
+	border-top: 0px solid #666666;
+	border-bottom: 1px solid #666666;
+}
+
+.scroll-nav-container {
+	position:fixed;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	text-align:center;
+	background-color:white;
+	border-bottom: 1px solid #666666;
+	display:none;
+	padding: 10px 0px 10px 0px;
+	border-top: 0px solid #666666;
+	border-bottom: 1px solid #666666;
+}
+
+.nav {
+	display:inline;
+	text-align: center;
+}
+
+.nav a {
+	padding: 0px 10px;
+	color: black;
+	text-decoration:none;
+}
+
+.nav a:hover {
+	color: #333333;
+}
+
+.content {
+	padding: 10px 0px;
+}
+
+.card {
+	height: 200px;
+	background-color: #eeeeee;
+	overflow:hidden;
+}
+
+.card-image {
+	height: 100%;
+	margin: 0px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+}
+
+.card-image.enlarge {
+	-webkit-transform: scale(1.05); 
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.projects.row {
+	margin: 10px 0px;
+}
+
+.row.about {
+	margin-top: 30px;
+}
+
+.contact {
+	margin-top:30px;
+}
+
+.row.footer {
+	margin-top: 20px;
+	padding: 20px 0px;
+	border-top: 1px solid #666666;
+}
